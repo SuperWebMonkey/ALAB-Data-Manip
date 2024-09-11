@@ -52,6 +52,8 @@ const dontDoThis =
   n2 != n4 &&
   n3 != n4;
 
+console.log(`don't do this is ${dontDoThis}`);
+
 // part 1 lab - this is where the implementation begins
 let isDivBy5 = n1 % 5 == 0 && n2 % 5 == 0 && n3 % 5 == 0 && n4 % 5 == 0;
 console.log(`It is ${isDivBy5} that all four are div by 5`);
@@ -61,3 +63,18 @@ console.log(`is n1 larger than n4: ${isLarger}`);
 
 let chain = ((n1 - n2) * n3) % n4;
 console.log(`the results of the chain is ${chain}`);
+
+// code for isOver25
+let appropriate = n1 > 25 && n2 > 25 && n3 > 25 && n4 > 25;
+const dontDoThis2 =
+  n1 + n2 + n3 + n4 == 50 &&
+  (n1 % 2) + (n2 % 2) + (n3 % 2) + (n4 % 2) >= 2 &&
+  !(n1 > 25 || n2 > 25 || n3 > 25 || n4 > 25) &&
+  n1 != n2 &&
+  n1 != n3 &&
+  n1 != n4 &&
+  n2 != n3 &&
+  n2 != n4 &&
+  n3 != n4;
+
+console.log(`don't do this 2 is ${dontDoThis2}`);
