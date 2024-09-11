@@ -78,3 +78,27 @@ const dontDoThis2 =
   n3 != n4;
 
 console.log(`don't do this 2 is ${dontDoThis2}`);
+
+// Practical Math
+const distance = 1500;
+const budget = 175;
+const cost = 3;
+
+const mpg = distance / cost;
+console.log(`mpg is ${mpg}`);
+
+const isEnough = budget >= mpg;
+console.log(`budget is enough is ${isEnough}`);
+
+// At 55
+const mph1 = distance / 55;
+// At 60
+const mph2 = distance / 60;
+// At 75
+const mph3 = distance / 75;
+
+console.log(`mpg for 55, 60, and 75 is respectively ${mph1}, ${mph2}, ${mph3}`);
+
+const average = (mph1 + mph2 + mph3) / 3;
+
+console.log(`average for all 3 is ${average}`);
