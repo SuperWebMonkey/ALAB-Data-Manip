@@ -55,3 +55,6 @@ const dontDoThis =
 // part 1 lab - this is where the implementation begins
 isDivBy5 = n1 % 5 == 0 && n2 % 5 == 0 && n3 % 5 == 0 && n4 % 5 == 0;
 console.log(`It is ${isDivBy5} that all four are div by 5`);
+
+isLarger = n1 > n4;
+console.log(`is n1 larger than n4: ${isLarger}`);
