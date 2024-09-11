@@ -51,3 +51,7 @@ const dontDoThis =
   n2 != n3 &&
   n2 != n4 &&
   n3 != n4;
+
+// part 1 lab - this is where the implementation begins
+isDivBy5 = n1 % 5 == 0 && n2 % 5 == 0 && n3 % 5 == 0 && n4 % 5 == 0;
+console.log(`It is ${isDivBy5} that all four are div by 5`);
